@@ -3,3 +3,9 @@ html
     title= title
   body
     h1= title
+    h2 Attending
+    each person in attending
+      p= person.name
+    h2 Not Attending
+    each person in notAttending
+      p= person.name 
